@@ -1,6 +1,6 @@
 html {
     background-color: rgb(155, 155, 245);
-  background: linear-gradient(to right, #2d3ca0, #3d0557);
+  background: linear-gradient(to right, #2a2a33, #673089);
 }
 h1, h2, h3, h4, h5, h6 { 
     font-family: "Arial", sans-serif; /* Change font */
@@ -18,18 +18,15 @@ ol {
     
 }
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 300px;   /* sets width */
-    height: auto;
-    border-radius: 15px; 
+    margin: 40px;
+    box-shadow: 10px 20px 20px rgba(0,0,0,1); 
 }
 .image-row {
     display: flex;
     justify-content: space-between; /* pushes images to edges */
     align-items: center;            /* optional vertical alignment */
     padding: 10px;
+  
 }
 
 .image-row img {
